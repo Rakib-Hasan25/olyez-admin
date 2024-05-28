@@ -140,7 +140,7 @@ const AllPrompts = ({ data }: { data: any[] | undefined }) => {
             <select
               name=""
               id=""
-              className={`${styles.input} !mt-6 bg-transparent border rounded p-2`}
+              className={`${styles.input} !mt-6 bg-slate-900 border rounded p-2`}
               onChange={(e) =>
                 setStatus(e.target.value as "Pending" | "Live" | "Declined")
               }

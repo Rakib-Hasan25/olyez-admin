@@ -10,9 +10,9 @@ const Page= async () => {
   return (
     <div>
       <Heading
-        title="Becodemy - Admin"
-        description="Becodemy is a platform for students to learn and get help from teachers"
-        keywords="Programming,MERN,Redux,Machine Learning"
+        title="Olyez-admin"
+        description="Place where admin maintain everything"
+      
       />
       <div className="flex min-h-screen">
         <div className="2xl:w-[16%] w-1/5">
